@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipalActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Menu Principal"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
+        android:text="Cadastrar Estudo"
+        android:textColor="@color/black"
+        
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Consultar Estudos"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Perfil do Estudante"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnEstatisticas"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Estatísticas"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnAjuda"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Ajuda"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Sobre"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnSaír"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Sair"
+        android:textSize="20dp"/>
+
+</LinearLayout>
