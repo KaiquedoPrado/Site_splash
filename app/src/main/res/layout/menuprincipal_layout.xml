@@ -30,7 +30,7 @@
         android:backgroundTint="#F0EDED"
         android:text="Cadastrar Estudo"
         android:textColor="@color/black"
-        
+
         android:textSize="20dp"/>
 
     <Button
