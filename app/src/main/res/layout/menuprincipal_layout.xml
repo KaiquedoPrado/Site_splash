@@ -24,67 +24,100 @@
         android:id="@+id/btnCadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cornerRadius="4dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
         android:backgroundTint="#F0EDED"
         android:text="Cadastrar Estudo"
         android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
 
-        android:textSize="20dp"/>
-
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnConsultar"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:text="Consultar Estudos"
-        android:textSize="20dp"/>
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
+        android:text="Consultar Estudo"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnPerfil"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
         android:text="Perfil do Estudante"
-        android:textSize="20dp"/>
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEstatisticas"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
         android:text="Estatísticas"
-        android:textSize="20dp"/>
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAjuda"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
         android:text="Ajuda"
-        android:textSize="20dp"/>
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSobre"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
         android:text="Sobre"
-        android:textSize="20dp"/>
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
 
-    <Button
-        android:id="@+id/btnSaír"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
         android:text="Sair"
-        android:textSize="20dp"/>
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
+
+
 
 </LinearLayout>
