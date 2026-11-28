@@ -40,7 +40,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:maxLength="50" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -63,8 +63,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:layout_height="100dp"
+            android:inputType="text"
             android:maxLength="50" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -89,8 +89,37 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:maxLength="50" />
     </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSalvar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
+        android:text="SALVAR"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLimpar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F0EDED"
+        android:text="LIMPAR"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000"
+        app:strokeWidth="2px"/>
 
 </LinearLayout>
